@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <style type="text/css"> 
+            body {
+                background: #FF8800;
+            }         
+            .w3c { 
+                width: 400px;
+                padding-left:200px;
+                padding-right:200px; 
+                height:600px;
+                position: relative; 
+                padding-top: 20px;
+                padding-bottom: 20px;
+                background: #FF8800;
+            }
+            .frame { 
+                width :400px;
+                height :500px;
+                background: #FF8800;
+                z-index: 1;  
+                //border: 1px solid white;
+                text-align:center;
+                color:white;
+            }
+            .frame > a {
+                font-family: 微軟正黑體;
+                font-size: 2em;
+                color: black;
+                text-decoration: none; 
+                display:block;
+                width:396px;
+                height:50px;
+                padding:1px;
+                margin:0;
+                background: -webkit-linear-gradient(top, white, #ccc);
+                background: -moz-linear-gradient(top, white, #ccc);
+                background: -ms-linear-gradient(top, white, #ccc);
+                background: -o-linear-gradient(top, white, #ccc);
+                text-align:center;
+                border: 1px solid white;
+            }
+            /*
+            div.job_title:before {
+                content: "職稱:";
+            } 
+            */           
+            .w3c > div:not(:target)  {
+                position: absolute;
+            }
+
+            .w3c > div:target  { 
+                position: absolute; 
+                z-index: 2; 
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--左欄，設定為全白-->
+            
+        </div>
+        <div class="w3c">
+            <!--問題一-->
+            <div id="result1" class="frame result">
+                <img src="http://i.imgur.com/CEO05dp.jpg" width="400px" height="300px">
+                <div class="job_title" style="font-family: 微軟正黑體;font-size: 2em;">職稱:裸奔王者</div>
+                <a href="#start">重新面試</a>
+                <br>
+            </div>
+            <div class="frame" id="q1" width="100%">
+                <div style="height:200px"></div>
+                <a href="#result1">喜歡不穿衣服</a><a href="#q2">沒有裸露的習慣</a>
+            </div>
+
+            <!--問題二-->
+            <div id="result2" class="frame result">
+                <img src="http://i.imgur.com/65vxOsS.jpg" height="300px" >
+                <div class="job_title" style="font-family: 微軟正黑體;font-size: 2em;">職稱:春捲龍</div>
+                <a href="#start">重新面試</a>
+                <br>
+            </div>
+            <div class="frame" id="q2" width="100%">
+                <div style="height:200px"></div>
+                <a href="#result2">興趣練功夫</a><a href="#q3">有其他興趣</a>
+            </div>
+
+            <!--問題三-->
+            <div id="result3" class="frame result">
+                <img src="http://i.imgur.com/v3N85fi.jpg" width="400px" height="300px">
+                <div class="job_title" style="font-family: 微軟正黑體;font-size: 2em;">職稱:AV男優</div>
+                <a href="#start">重新面試</a>
+                <br>
+            </div>
+            <div class="frame" id="q3" width="100%">
+                <div style="height:200px"></div>
+                <a href="#result3">可以接受拍A片</a><a href="#q4">無法接受</a>
+            </div>
+
+            <!--問題四-->
+            <div id="result4" class="frame result">
+                <img src="http://i.imgur.com/8okSAaz.jpg" width="400px" height="300px">
+                <div class="job_title" style="font-family: 微軟正黑體;font-size: 2em;">職稱:乳頭轉動者</div>
+                <a href="#start">重新面試</a>
+                <br>
+            </div>
+            <div class="frame" id="q4" width="100%">
+                <div style="height:200px"></div>
+                <a href="#result4">愛好轉別人的乳頭</a><a href="#not_match">對別人的乳頭毫無衝動</a>
+            </div>
+
+            <!--沒有合適的-->
+            <div class="frame result" id="not_match" width="100%">
+                <img src="http://i.imgur.com/geYJcCd.jpg" width="400px" height="300px">
+                <div class="job_title" style="font-family: 微軟正黑體;font-size: 2em;">你還是回家吧!</div>
+                <a href="#start">重新面試</a>
+                <br>
+            </div>
+
+
+            <!--起始畫面，因為圖層的關係，起始畫面要在最下方-->
+            <div class="frame" width="100%" id="start">
+                <img src="http://i.imgur.com/TIvW8of.png" width="400px" height="430px"><br>
+                <a href="#q1" id="to_q1">應徵</a>
+            </div>
+         
+            <!--
+            <div class="frame">
+                <a href="#tab16">Tab 16</a> <a href="#tab17">Tab 17</a>
+            </div>
+            
+
+            <div id="tab18">
+                <img scr="#" width="100px" height="100px" >
+            </div>
+            -->
+        </div>
+    </body>
+</html>
