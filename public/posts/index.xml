@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://example.org/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - 沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>All Posts | 沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><managingEditor>thinklikes@gmail.com (打不到蚊子的低敏捷工程師)</managingEditor>
+            <webMaster>thinklikes@gmail.com (打不到蚊子的低敏捷工程師)</webMaster><lastBuildDate>Fri, 18 Apr 2025 12:37:46 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Golang 新手村(1)</title>
+    <link>http://localhost:1313/golang-learning-1/</link>
+    <pubDate>Fri, 18 Apr 2025 12:37:46 &#43;0800</pubDate>
+    <author>打不到蚊子的低敏捷工程師</author>
+    <guid>http://localhost:1313/golang-learning-1/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
