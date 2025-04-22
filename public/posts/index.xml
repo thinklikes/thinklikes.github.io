@@ -3,14 +3,47 @@
         <title>All Posts - 沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</title>
         <link>http://localhost:1313/posts/</link>
         <description>All Posts | 沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><managingEditor>thinklikes@gmail.com (打不到蚊子的低敏捷工程師)</managingEditor>
-            <webMaster>thinklikes@gmail.com (打不到蚊子的低敏捷工程師)</webMaster><lastBuildDate>Fri, 18 Apr 2025 12:37:46 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Golang 新手村(1)</title>
-    <link>http://localhost:1313/golang-learning-1/</link>
-    <pubDate>Fri, 18 Apr 2025 12:37:46 &#43;0800</pubDate>
-    <author>打不到蚊子的低敏捷工程師</author>
-    <guid>http://localhost:1313/golang-learning-1/</guid>
+        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><managingEditor>thinklikes@gmail.com (忘了留點數給智力的力量型鍵盤勇者)</managingEditor>
+            <webMaster>thinklikes@gmail.com (忘了留點數給智力的力量型鍵盤勇者)</webMaster><lastBuildDate>Fri, 18 Apr 2025 15:09:25 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>測試</title>
+    <link>http://localhost:1313/%E6%B8%AC%E8%A9%A6/</link>
+    <pubDate>Fri, 18 Apr 2025 15:09:25 &#43;0800</pubDate>
+    <author>忘了留點數給智力的力量型鍵盤勇者</author>
+    <guid>http://localhost:1313/%E6%B8%AC%E8%A9%A6/</guid>
     <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Golang 新手村(1)</title>
+    <link>http://localhost:1313/golang-%E6%96%B0%E6%89%8B%E6%9D%911/</link>
+    <pubDate>Fri, 18 Apr 2025 11:43:53 &#43;0800</pubDate>
+    <author>忘了留點數給智力的力量型鍵盤勇者</author>
+    <guid>http://localhost:1313/golang-%E6%96%B0%E6%89%8B%E6%9D%911/</guid>
+    <description><![CDATA[<h2 id="前言">前言</h2>
+<p>各位勇者，歡迎降臨 Golang 新手村！你是不是渴望著操控程式之力？這裡就是你的起點，讓我們一同修煉 Go 能力吧！</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tips<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">這個系列的文章將會引用官網中 &laquo;A Tour of Go&raquo; 一系列的範例程式。<br>
+出處：
+<a href="https://go.dev/tour/list" title="A Tour of Go" target="_blank" rel="noopener noreffer ">A Tour of Go</a></div>
+        </div>
+    </div>
+<h2 id="新手村使用說明">新手村使用說明</h2>
+<ol>
+<li>
+<p>所有的教學任務會以一個新手的觀點來撰寫，從最基本的語法開始介紹，並且附上範例程式碼。</p>]]></description>
+</item>
+<item>
+    <title>My First Post</title>
+    <link>http://localhost:1313/my-first-post/</link>
+    <pubDate>Fri, 11 Apr 2025 10:04:11 &#43;0800</pubDate>
+    <author>忘了留點數給智力的力量型鍵盤勇者</author>
+    <guid>http://localhost:1313/my-first-post/</guid>
+    <description><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
+<p>Visit the <a href="https://gohugo.io" target="_blank" rel="noopener noreffer ">Hugo</a> website!</p>]]></description>
 </item>
 </channel>
 </rss>
