@@ -1,25 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</title>
-        <link>http://localhost:1313/</link>
+        <link>https://example.com/</link>
         <description>沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><managingEditor>thinklikes@gmail.com (忘了留點數給智力的力量型鍵盤勇者)</managingEditor>
             <webMaster>thinklikes@gmail.com (忘了留點數給智力的力量型鍵盤勇者)</webMaster><lastBuildDate>Fri, 18 Apr 2025 15:09:25 &#43;0800</lastBuildDate>
-            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>測試</title>
-    <link>http://localhost:1313/%E6%B8%AC%E8%A9%A6/</link>
-    <pubDate>Fri, 18 Apr 2025 15:09:25 &#43;0800</pubDate>
-    <author>忘了留點數給智力的力量型鍵盤勇者</author>
-    <guid>http://localhost:1313/%E6%B8%AC%E8%A9%A6/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>Golang 新手村(1)</title>
-    <link>http://localhost:1313/golang-%E6%96%B0%E6%89%8B%E6%9D%911/</link>
+    <link>https://example.com/golang-%E6%96%B0%E6%89%8B%E6%9D%911/</link>
     <pubDate>Fri, 18 Apr 2025 11:43:53 &#43;0800</pubDate>
     <author>忘了留點數給智力的力量型鍵盤勇者</author>
-    <guid>http://localhost:1313/golang-%E6%96%B0%E6%89%8B%E6%9D%911/</guid>
+    <guid>https://example.com/golang-%E6%96%B0%E6%89%8B%E6%9D%911/</guid>
     <description><![CDATA[<h2 id="前言">前言</h2>
 <p>各位勇者，歡迎降臨 Golang 新手村！你是不是渴望著操控程式之力？這裡就是你的起點，讓我們一同修煉 Go 能力吧！</p>
 <div class="details admonition tip open">
@@ -36,16 +28,6 @@
 <ol>
 <li>
 <p>所有的教學任務會以一個新手的觀點來撰寫，從最基本的語法開始介紹，並且附上範例程式碼。</p>]]></description>
-</item>
-<item>
-    <title>My First Post</title>
-    <link>http://localhost:1313/my-first-post/</link>
-    <pubDate>Fri, 11 Apr 2025 10:04:11 &#43;0800</pubDate>
-    <author>忘了留點數給智力的力量型鍵盤勇者</author>
-    <guid>http://localhost:1313/my-first-post/</guid>
-    <description><![CDATA[<h2 id="introduction">Introduction</h2>
-<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
-<p>Visit the <a href="https://gohugo.io" target="_blank" rel="noopener noreffer ">Hugo</a> website!</p>]]></description>
 </item>
 </channel>
 </rss>

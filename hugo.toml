@@ -397,7 +397,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
     # 是否显示原始 Markdown 文档内容的链接
-    linkToMarkdown = true
+    linkToMarkdown = false
     # whether to show the full text content in RSS
     # 是否在 RSS 中显示全文内容
     rssFullText = false
@@ -474,11 +474,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       X = true
       Threads = true
       Facebook = true
-      Linkedin = false
+      Linkedin = true
       Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
@@ -487,14 +487,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       Instapaper = false
       Pocket = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Blogger = false
       Baidu = false
       Odnoklassniki = false
       Evernote = false
       Skype = false
       Trello = false
-      Diaspora = true
+      Diaspora = false
       Mix = false
       Telegram = true
     # Comment config
