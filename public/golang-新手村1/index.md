@@ -1,9 +1,10 @@
-# Golang 新手村(1)
+# Golang 新手村(1) - Golang 基本語法
 
 
 ## 前言
 各位勇者，歡迎降臨 Golang 新手村！你是不是渴望著操控程式之力？這裡就是你的起點，讓我們一同修煉 Go 能力吧！
 
+我們的第一個任務是要來了解 Golang 的基本語法，認識基本的語法結構。
 {{< admonition type=tip title="Tips" open=true >}}
 這個系列的文章將會引用官網中 <<A Tour of Go>> 一系列的範例程式。  
 出處：
@@ -45,15 +46,19 @@
 經過約十來年的訓練，我們才能夠毫不費力地閱讀文章。閱讀程式語言也是需要透過密集的練習才能夠熟悉的。  
 
 ---
-首先打開 <<A Tour of Go>> 的[第一個範例](https://go.dev/tour/basics/1)。這個範例主要說的是 Golang 的基本語法，讓我們來看看這段程式碼：
+這是[第一個任務](https://go.dev/tour/basics/1)，讓我們來看看這段程式碼：
 ```golang
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "math/rand"
+)
 
 func main() {
-	fmt.Println("Hello, 世界")
+    fmt.Println("My favorite number is", rand.Intn(10))
 }
+
 ```
 #### 說明
 ```golang
@@ -63,21 +68,45 @@ Golang 開發規範中， `package main` 這一句宣告語句須放在第一行
 package 是一種組成程式碼的方式，把相關的函式、變數和資源組織在一起，以保持程式碼的整潔。  
 你可以想像成一個資料夾，裡面放著許多相關的檔案。
 
----
+***
 
+```golang
+import (
+    "fmt"
+    "math/rand"
+)
+```
+目前的程式中引用了 packages `fmt` 與 `math/rand`。  
+`fmt` 是一個內建的 package，在這裡我們用來印出指定的文字。  
+`math/rand` 是另一個內建的 package，提供隨機數字的產生器，這裡我們用來產生 0 到 10 的隨機數字。
+
+
+{{< admonition type=tip title="Tips" open=true >}}
+我們可以將 import 的 packages 放在一起，這樣可以讓程式碼更簡潔。
+```golang
+import (
+    "fmt"
+    "math/rand"
+)
+```
+
+你也可以將它們分開來
 ```golang
 import "fmt"
+import "math/rand"
 ```
-目前的程式中引用了 `fmt` package，這是一個內建的 package，在這裡我們用來印出指定的文字。
+{{< /admonition >}}
 
-----
+***
+
 ```golang
 func main() {
-	fmt.Println("Hello, 世界")
+    fmt.Println("My favorite number is", rand.Intn(10))
 }
 ```
-`func main()` 是目前這個程式的主函式，這是程式的進入點。意即執行該檔案時，會預設執行這個函式中的程式碼。
-`fmt.Println("Hello, 世界")` 是用來印出文字的指令，這裡我們印出了 `Hello, 世界` 這段文字。
+`func main()` 是目前這個程式的主函式，這是程式的進入點。意即執行該檔案時，會預設執行這個函式中的程式碼。  
+`fmt.Println("My favorite number is", rand.Intn(10))` 是用來印出文字的指令，這裡我們印出了隨機數字的文句。
+`rand.Intn(10)` 是產生隨機 1 到 10 的整數。
 
 ## 小結
 冒險者們！幹得不錯，你已經通過了第一項考驗了！相信你已經開始熟悉 Golang 程式碼區塊是怎麼分佈的了，是不是已經隱隱約約知道怎麼操控 Golang 之力了呢？
