@@ -1,28 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Golang - Tag - 沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</title>
-        <link>https://example.com/tags/golang/</link>
-        <description>Golang - Tag - 沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><managingEditor>thinklikes@gmail.com (忘了留點數給智力的力量型鍵盤勇者)</managingEditor>
-            <webMaster>thinklikes@gmail.com (忘了留點數給智力的力量型鍵盤勇者)</webMaster><lastBuildDate>Fri, 18 Apr 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/tags/golang/" rel="self" type="application/rss+xml" /><item>
-    <title>Golang 新手村(1) - Golang 基本語法</title>
-    <link>https://example.com/golang-%E6%96%B0%E6%89%8B%E6%9D%911/</link>
-    <pubDate>Fri, 18 Apr 2025 00:00:00 &#43;0000</pubDate>
-    <author>忘了留點數給智力的力量型鍵盤勇者</author>
-    <guid>https://example.com/golang-%E6%96%B0%E6%89%8B%E6%9D%911/</guid>
-    <description><![CDATA[<h2 id="前言">前言</h2>
-<p>各位勇者，歡迎降臨 Golang 新手村！你是不是渴望著操控程式之力？這裡就是你的起點，讓我們一同修煉 Go 能力吧！</p>
-<p>我們的第一個任務是要來了解 Golang 的基本語法，認識基本的語法結構。
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tips<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">這個系列的文章將會引用官網中 &laquo;A Tour of Go&raquo; 一系列的範例程式。<br>
-出處：
-<a href="https://go.dev/tour/list" title="A Tour of Go" target="_blank" rel="noopener noreffer ">A Tour of Go</a></div>
-        </div>
-    </div></p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on 沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</title>
+    <link>http://localhost:1313/tags/golang/</link>
+    <description>Recent content in Golang on 沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</description>
+    <generator>Hugo</generator>
+    <language>zh-Hant</language>
+    <lastBuildDate>Tue, 22 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang 新手村(1) - Golang 基本語法</title>
+      <link>http://localhost:1313/posts/golang/golang-%E6%96%B0%E6%89%8B%E6%9D%911/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/golang/golang-%E6%96%B0%E6%89%8B%E6%9D%911/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

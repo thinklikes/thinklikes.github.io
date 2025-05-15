@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topics on 沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</title>
+    <link>http://localhost:1313/zh-hant/topics/</link>
+    <description>Recent content in Topics on 沒有轉生就成為工程師了|自學轉職工程師的技術與成長筆記</description>
+    <generator>Hugo</generator>
+    <language>zh-Hant</language>
+    <atom:link href="http://localhost:1313/zh-hant/topics/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
