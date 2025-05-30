@@ -25,6 +25,5 @@ privacyEnhanced = true
 [services]
 [services.x]
 disableInlineCSS = true
-
 [services.disqus]
 shortname = 'your-disqus-shortname'

@@ -3,22 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
-      <url>
-            <loc>http://localhost:1313/posts/n8n/n8n-basic2/</loc>
-            <lastmod>2025-05-12T14:50:21+08:00</lastmod>
-          </url>
-    
   
     
       <url>
-            <loc>http://localhost:1313/posts/</loc>
-            <lastmod>2025-05-12T14:50:21+08:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/</loc>
+            <loc>https://program-isekai.pages.dev/posts/</loc>
             <lastmod>2025-05-12T14:50:21+08:00</lastmod>
           </url>
     
@@ -30,43 +18,25 @@
     
   
     
+  
+    
       <url>
-            <loc>http://localhost:1313/posts/n8n/n8n-installation/</loc>
+            <loc>https://program-isekai.pages.dev/posts/n8n/n8n-installation/</loc>
             <lastmod>2025-05-09T14:39:04+08:00</lastmod>
           </url>
     
   
     
-  
-    
-  
-    
       <url>
-            <loc>http://localhost:1313/posts/%E6%B8%AC%E8%A9%A6/</loc>
-            <lastmod>2025-04-18T15:09:25+08:00</lastmod>
+            <loc>https://program-isekai.pages.dev/</loc>
+            <lastmod>2025-05-12T14:50:21+08:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/about/</loc>
+            <loc>https://program-isekai.pages.dev/about/</loc>
             <lastmod>2025-04-18T12:37:46+08:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/posts/golang/golang-%E6%96%B0%E6%89%8B%E6%9D%911/</loc>
-            <lastmod>2025-04-22T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/posts/my-first-post/</loc>
-            <lastmod>2025-04-11T10:04:11+08:00</lastmod>
           </url>
     
   
