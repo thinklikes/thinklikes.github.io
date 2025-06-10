@@ -13,7 +13,7 @@ topics = ['我在現實生活中用 n8n 開外掛']
 的魅力，於是有了這些筆記的出現。這一系列的文章會是提供給應用程式開發已有基礎的朋友們，讓你們能夠快速上手`n8n`
 的使用，並且能夠在日常生活中使用`n8n`來幫助完成工作。
 
-### 使用工具
+### **使用工具**
 
 在這邊文章中，我們會使用這些工具在本地安裝並且設定`n8n`。
 
@@ -25,7 +25,7 @@ topics = ['我在現實生活中用 n8n 開外掛']
 
 ## 拿出你的鍵盤吧！
 
-### 容器配置圖
+### **容器配置圖**
 
 如下圖，`n8n`與`postgresSQL`是我們預計啟用的 Docker containers，在使用者的工作過程中，`n8n` 會寫入或讀取資料於資料庫
 `postgresSQL`上。  
@@ -42,13 +42,13 @@ topics = ['我在現實生活中用 n8n 開外掛']
         A -- 瀏覽器 --> B
 {{< /mermaid >}}
 
-### 開始安裝
+### **開始安裝**
 
 1. 下載 Docker Desktop，並且安裝。
 2. 建立一個空白專案資料夾並新增下列檔案給 Docker 容器配置使用。Docker 配置檔案是從`n8n`
    官網取得，如需瞭解更多，請參考[這裡]( https://docs.n8n.io/hosting/installation/docker/)。
 
-   ##### .env
+   ##### **.env**
     ```dotenv
     # Database Configuration
     # PostgreSQL 資料庫的管理者帳號
@@ -68,7 +68,7 @@ topics = ['我在現實生活中用 n8n 開外掛']
     ```
    `.env`檔案是用來設定所有`Docker`容器的環境變數，當容器啟動時會讀取這些環境變數給`n8n`使用。
 
-   ##### docker-compose.yml
+   ##### **docker-compose.yml**
     ```yaml
     services:
         # postgresSQL 資料庫
@@ -134,11 +134,11 @@ topics = ['我在現實生活中用 n8n 開外掛']
 
    到這一步為止，若容器成功啟動，那麼安裝就已經完成了。
 
-### 訪問 n8n
+### **訪問 n8n**
 
 [點擊這裡](http://localhost:5678)，或是在瀏覽器的網址列輸入`http://localhost:5678`，即可進入`n8n`的工作介面。
 
-#### 初始設定
+#### **初始設定**
 
 當你第一次進入`n8n`的工作介面時，系統會要求建立一個 Owner account，這個帳號會是你在使用`n8n`時的管理者帳號。
 {{< figure src="signup_first.png" caption="建立Owner account">}}
@@ -149,14 +149,14 @@ topics = ['我在現實生活中用 n8n 開外掛']
 免費取得永久付費特權，也是可選的步驟。
 {{< figure src="free_plan.png" caption="免費取得永久付費特權">}}
 
-#### 進入工作介面
+#### **進入工作介面**
 
 當你完成上述的步驟後，就可以進入`n8n`的工作介面了。
 {{< figure src="ui.png" caption="n8n 工作介面">}}
 
 在這邊你可以按下左上角的`+`、右上角的`create workflow`按鈕，或是中間的`Start from scratch`來建立新的工作流程。
 
-### quickstart 範例
+### **quickstart 範例**
 
 現在我們參考官網的範例：[Very quick quickstart](https://docs.n8n.io//try-it-out/quickstart/)，來認識一下`n8n`
 。這個範例介紹了一些主要特點：工作流程模板（`Workflow templates`）、節點（`Nodes`）與表達式（`Expressions`）。
@@ -170,7 +170,7 @@ topics = ['我在現實生活中用 n8n 開外掛']
 表達式（`Expressions`）可以讓你在`n8n`的工作介面中注入參數以執行一小段`Javascript`程式碼。
 {{< /alert >}}
 
-#### STEP.1 複製工作流程模板
+#### **STEP.1 複製工作流程模板**
 
 1. 我們先從n8n官方的樣版庫找到[quickstart](https://n8n.io/workflows/1700-very-quick-quickstart)模板，然後 在網頁中點擊左側的
    `Use for free`按鈕。
@@ -184,11 +184,11 @@ topics = ['我在現實生活中用 n8n 開外掛']
    右上角紅框處可以為工作流程改名稱，`Add tag`則可以為工作流程設置標籤，以便快速搜尋。
    {{< figure src="paste_template.png" caption="貼上範本">}}
 
-#### STEP.2 執行工作流程
+#### **STEP.2 執行工作流程**
 按下模板上`Test workflow`按鈕，即可執行這個工作流程，執行完成時系統會自動通知成功的訊息，且各個節點會在成功通過時標注一個綠色勾勾。
 {{< figure src="test_successfully.png" caption="執行成功" >}}
 
-#### STEP.3 認識工作流程
+#### **STEP.3 認識工作流程**
 以下我們先逐個說明各個節點：
 
 1. `Sticky note`  
@@ -210,7 +210,7 @@ topics = ['我在現實生活中用 n8n 開外掛']
    資料編輯節點。此節點用於修改數據的欄位。當工作流程運行時，這個節點會將前一個節點輸出的數據進行修改。
    {{< figure src="edit_fields.png">}}
 
-#### STEP.4 一點點變化
+#### **STEP.4 一點點變化**
 現在我們來修改一下工作流程，跟著官網的範例來加入一個新的節點：`Customer Messenger`。
 1. 點擊`Edit Fields (Set)`右側的`+`按鈕，然後在搜尋欄中輸入`Customer Messenger`，找到這個節點後點擊它。
    {{< figure src="add_customer_messenger.png" caption="新增 Customer Messenger 節點">}}
