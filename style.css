@@ -103,6 +103,8 @@ h2 { font-size: clamp(29px, 3.3vw, 42px); line-height: 1.45; letter-spacing: -.0
 .contact-panel h2 { margin-bottom: 17px; }
 .contact-panel > p:not(.eyebrow) { max-width: 480px; margin: 0 auto 25px; color: #73786e; font-size: 12px; line-height: 2; }
 .button-light { background: #fffefa; color: var(--green-dark); }
+.contact-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.contact-actions .button { max-width: 100%; }
 .contact-caption { display: block; color: #92958b; font-size: 10px; margin-top: 18px; }
 .contact-decoration { position: absolute; right: 8%; top: 15px; font-size: 90px; color: #d8dbcf; transform: rotate(18deg); }
 .site-footer { min-height: 100px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); }
@@ -148,6 +150,34 @@ h2 { font-size: clamp(29px, 3.3vw, 42px); line-height: 1.45; letter-spacing: -.0
   .contact-panel { padding: 65px 18px 55px; }
   .contact-decoration { right: 3%; top: 4px; font-size: 65px; }
   .site-footer > p { order: 3; width: 100%; }
+}
+/* 電腦版字級放大 */
+@media (min-width: 801px) {
+  .main-nav { font-size: 15px; }
+  .eyebrow { font-size: 12px; }
+  .hero-lead { font-size: 17px; }
+  .button { font-size: 15px; }
+  .text-link { font-size: 15px; }
+  .hero-note { font-size: 14px; }
+  .card-label { font-size: 10px; }
+  .art-answer { font-size: 14px; }
+  .floating-tag { font-size: 12px; }
+  .hero-bottom { font-size: 11px; }
+  .intro-text { font-size: 16px; }
+  .signature { font-size: 15px; }
+  .section-heading > p { font-size: 15px; }
+  .service-number { font-size: 12px; }
+  .service-card > p { font-size: 15px; }
+  .service-card li { font-size: 14px; }
+  .featured-label { font-size: 12px; }
+  .approach-copy > p:last-child { font-size: 15px; }
+  .step > span { font-size: 14px; }
+  .step h3 { font-size: 17px; }
+  .step p { font-size: 14px; }
+  .contact-panel > p:not(.eyebrow) { font-size: 15px; }
+  .contact-caption { font-size: 12px; }
+  .site-footer > p { font-size: 14px; }
+  .copyright { font-size: 12px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
